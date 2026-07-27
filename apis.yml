@@ -1,8 +1,30 @@
 aid: forge-robotics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/forge-robotics.png
 name: Forge Robotics
-description: Forge Robotics is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Forge Robotics is a Galway, Ireland and San Francisco based robotics company
+  building modular autonomous factories for metal fabrication. Its shipping
+  container sized, software configurable units combine a vision system, sub
+  millimeter 3D scanning, and robotic intelligence to autonomously handle,
+  position, weld, laser engrave, and finish metal assemblies, turning
+  conventional human programmed industrial welding robot arms into autonomous
+  members of the workforce. The company targets the skilled welder shortage in
+  US manufacturing with continuously operating, snap together production
+  modules. Forge Robotics was co founded by Eoin Cobbe (CEO) and Robert
+  Cormican (CTO) and is a Y Combinator backed pre seed startup. As of this
+  profile the company exposes a marketing and product website only, with no
+  public API, developer portal, documentation, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/forge-robotics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +34,34 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Robotics
+- Manufacturing
+- Automation
+- Autonomous Factories
+- Metal Fabrication
+- Welding
+- Computer Vision
+- Y Combinator
 apis: []
+common:
+- type: Website
+  url: https://forge-robotics.com/
+- type: Careers
+  url: https://forge-robotics.com/careers
+- type: News
+  url: https://forge-robotics.com/news
+- type: DomainSecurity
+  url: security/forge-robotics-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

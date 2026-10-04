@@ -54,7 +54,7 @@ tags:
 - Autonomous Factories
 - Metal Fabrication
 - Welding
-- Computer-Vision
+- Computer Vision
 - Y Combinator
 tags_raw:
 - Company
@@ -66,6 +66,7 @@ tags_raw:
 - Welding
 - Computer Vision
 - Y Combinator
+- Computer-Vision
 apis: []
 common:
 - type: Website
